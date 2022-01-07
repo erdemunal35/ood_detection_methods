@@ -10,4 +10,7 @@ potential to detect the shift between two image representations which can be obt
 
 ## Best Anomaly Detection Method for Microscopic Data (in terms of both accuracy and efficiency)
 Taking the Mahalanobis distance based detector on penultime layer outputs of a trained (only with inliers) supervised classiifer obtained the best anomaly score.
+
 See [the source code](https://github.com/erdemunal35/ood_detection_methods/blob/main/discriminative_mahalanobis.ipynb) for plots
+
+[Main Paper](https://arxiv.org/pdf/1807.03888.pdf) behind the idea of Mahalanobis distance based detector
